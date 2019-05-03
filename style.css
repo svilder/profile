@@ -69,15 +69,15 @@ a {
   text-decoration: none;
 }
 
-li {
+a:hover .fab {
+  color: rgba(9, 99, 124, 0.80);
+}
+
+li  {
   display: inline-block;
   padding: 0px 20px;
   color: #096386;
   font-size: 40px;
-}
-
-li:hover {
-  color: rgba(9, 99, 124, 0.10);
 }
 
 ul {
