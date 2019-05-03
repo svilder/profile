@@ -1,0 +1,120 @@
+
+body {
+  background-color: rgba(9, 99, 124, 0.10);
+  color: rgb(20, 20, 20);
+  border-style: none;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  color: #096386;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  margin: auto;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  margin: 40px auto;
+  width: 700px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.10);
+  text-align: center;
+  margin: 20px 0px;
+  border-style: none;
+}
+
+.card-white p {
+  padding-bottom: 20px;
+}
+
+.btn-blue {
+  background-color: #096386;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a.btn-blue:hover{
+ background-color: rgba(9, 99, 124, 0.80);
+ color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #096386;
+  font-size: 40px;
+}
+
+li:hover {
+  color: rgba(9, 99, 124, 0.10);
+}
+
+ul {
+  padding: 0px;
+}
+
+.fab {
+  color: #096386;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size:40px;
+  }
+  img {
+    width: 140px;
+  }
+  h2 {
+    font-size:30px;
+  }
+  li {
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
